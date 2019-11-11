@@ -18,6 +18,13 @@
   <dependencies>
   
   
+ 		 <!--Link backend project -->
+  		<dependency>
+    		<groupId>net.supdip</groupId>
+  			<artifactId>shoppingBackend</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  
   	<!-- JAVA EE -->
 		<dependency>
 			<groupId>javax</groupId>

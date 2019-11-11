@@ -18,6 +18,7 @@
 	<!-- Note :- The name of the file will be the servlet_name-servlet.xml as per the convention else we have to do additional configuration -->
 	
 	<context:component-scan base-package="net.supdip.onlineShopping.controller"/>
+	<context:component-scan base-package="net.supdip.shoppingBackend.daoimpl"/>
 	
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	

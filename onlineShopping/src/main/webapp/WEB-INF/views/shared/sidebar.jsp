@@ -1,12 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+<p class="lead">Shop Name</p>
 
-</body>
-</html>
+
+
+
+<div class="list-group">
+
+
+	<c:forEach items="${categories}" var="category">
+		<a href="${contextRoot}/show/category/${category.id}/products" class="list-group-item">${category.name}</a>
+	</c:forEach>
+
+	 
+</div>
